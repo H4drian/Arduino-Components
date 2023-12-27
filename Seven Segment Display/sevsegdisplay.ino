@@ -71,8 +71,8 @@ public:
   void displayNum(int num) {
     off();
 
+    // Switch case for each digit
     switch (num) {
-      // Cases for each digit
       case 0:
         pinOn(A);
         pinOn(B);
@@ -85,7 +85,63 @@ public:
         pinOn(B);
         pinOn(C);
         break;
-      // ... Cases for digits 2 through 9
+      case 2:
+        pinOn(A);
+        pinOn(B);
+        pinOn(G);
+        pinOn(E);
+        pinOn(D);
+        break;
+      case 3:
+        pinOn(A);
+        pinOn(B);
+        pinOn(C);
+        pinOn(D);
+        pinOn(G);
+        break;
+      case 4:
+        pinOn(F);
+        pinOn(G);
+        pinOn(B);
+        pinOn(C);
+        break;
+      case 5:
+        pinOn(A);
+        pinOn(F);
+        pinOn(G);
+        pinOn(C);
+        pinOn(D);
+        break;
+      case 6:
+        pinOn(A);
+        pinOn(F);
+        pinOn(G);
+        pinOn(C);
+        pinOn(D);
+        pinOn(E);
+        break;
+      case 7:
+        pinOn(A);
+        pinOn(B);
+        pinOn(C);
+        break;
+      case 8:
+        pinOn(A);
+        pinOn(B);
+        pinOn(C);
+        pinOn(D);
+        pinOn(E);
+        pinOn(F);
+        pinOn(G);
+        break;
+      case 9:
+        pinOn(A);
+        pinOn(B);
+        pinOn(C);
+        pinOn(D);
+        pinOn(F);
+        pinOn(G);
+        break;
       default:
         return;
     }
@@ -95,8 +151,8 @@ public:
   void displayChar(char letter) {
     off();
 
+    // Switch case for each character
     switch (letter) {
-      // Cases for each character
       case 'A':
         pinOn(A);
         pinOn(B);
@@ -105,7 +161,39 @@ public:
         pinOn(F);
         pinOn(G);
         break;
-      // ... Cases for characters 'B' through 'F'
+      case 'B':
+        pinOn(C);
+        pinOn(D);
+        pinOn(E);
+        pinOn(F);
+        pinOn(G);
+        break;
+      case 'C':
+        pinOn(A);
+        pinOn(D);
+        pinOn(E);
+        pinOn(F);
+        break;
+      case 'D':
+        pinOn(B);
+        pinOn(C);
+        pinOn(D);
+        pinOn(E);
+        pinOn(G);
+        break;
+      case 'E':
+        pinOn(A);
+        pinOn(D);
+        pinOn(E);
+        pinOn(F);
+        pinOn(G);
+        break;
+      case 'F':
+        pinOn(A);
+        pinOn(E);
+        pinOn(F);
+        pinOn(G);
+        break;
       default:
         return;
     }
@@ -123,7 +211,9 @@ int displayChars[] = {'A', 'B', 'C', 'D', 'E', 'F'};
 SevenSegDisplay display(PIN_A, PIN_B, PIN_C, PIN_D, PIN_E, PIN_F, PIN_G, PIN_DP);
 
 // Setup function (runs once at the beginning)
-void setup() {}
+void setup() {
+  // No setup needed in this example
+}
 
 // Loop function (runs repeatedly)
 void loop() {

@@ -6,5 +6,5 @@ Most LED seven segment displays commonly used in electronics projects will have 
 Top:    G, F, COM, A, B
 Bottom: E, D, COM, C, DP
 
-Here is which segment each pin connects t
+Here is which segment each pin connects to
 ![7-Segment Display Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/7_Segment_Display_with_Labeled_Segments.svg/800px-7_Segment_Display_with_Labeled_Segments.svg.png)

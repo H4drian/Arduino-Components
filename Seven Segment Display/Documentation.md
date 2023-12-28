@@ -29,3 +29,7 @@ For the programm to correctly run as is you will need to connect the components 
 | 7SD G                      | Arduino Pin 8       |
 | 7SD DP                     | Arduino Pin ~9      |
 | 7SD COM (Both COM pins)    | Arduino Pin GND     |
+
+
+Here is an overview of the circuitry that goes into this project:
+![Circuit Schematics](https://github.com/H4drian/Arduino-Components/assets/117495728/017e94a7-aa61-4b8a-9d79-29de70d8fc16)

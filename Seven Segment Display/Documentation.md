@@ -8,3 +8,13 @@ Bottom: E, D, COM, C, DP
 
 Here is which segment each pin connects to
 ![7-Segment Display Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/7_Segment_Display_with_Labeled_Segments.svg/800px-7_Segment_Display_with_Labeled_Segments.svg.png)
+
+## Components
+For this build you will only need 3 components
+
+- Arduino
+- 7-Seg Display
+- Wires
+
+## Connections
+

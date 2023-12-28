@@ -22,3 +22,10 @@ For the programm to correctly run as is you will need to connect the components 
 | -------------------------- | ------------------- |
 | 7SD A                      | Arduino Pin 2       |
 | 7SD B                      | Arduino Pin ~3      |
+| 7SD C                      | Arduino Pin 4       |
+| 7SD D                      | Arduino Pin ~5      |
+| 7SD E                      | Arduino Pin ~6      |
+| 7SD F                      | Arduino Pin 7       |
+| 7SD G                      | Arduino Pin 8       |
+| 7SD DP                     | Arduino Pin ~9      |
+| 7SD COM (Both COM pins)    | Arduino Pin GND     |

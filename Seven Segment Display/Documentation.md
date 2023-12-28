@@ -20,9 +20,5 @@ For this build you will only need 3 components
 For the programm to correctly run as is you will need to connect the components above in a specific way, specified here.
 | Component                  | Connection          |
 | -------------------------- | ------------------- |
-| Ultrasonic Sensor Pin VCC  | Arduino Pin 5V      |
-| Ultrasonic Sensor Pin GND  | Arduino Pin GND     |
-| Ultrasonic Sensor Pin TRIG | Arduino Pin 2       |
-| Ultrasonic Sensor Pin ECHO | Arduino Pin 3       |
-| LED Positive Pin           | Arduino Pin 13      |
-| LED Negative Pin           | Arduino Pin GND     |
+| 7SD A                      | Arduino Pin 2       |
+| 7SD B                      | Arduino Pin ~3      |

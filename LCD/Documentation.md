@@ -4,7 +4,7 @@ Liquid Crystal Displays (LCDs) are an important part in any electronic engineer'
 ## Components
 For this build you are going to need 4 components.
 
-- LCD display (Make sure it does not have an I2C chip on it)
+- LCD display (Make sure it does not have an I2C chip on it, for more on I2C LCDs check the folder with the same name)
 - Arduino
 - Wires
 - Resistors (Dependent on LCD display)

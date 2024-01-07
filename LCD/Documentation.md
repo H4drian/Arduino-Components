@@ -1,10 +1,10 @@
 # Liquid Crystal Displays
-Liquid Crystal Displays (LCDs) are an important part in any electronic engineer's toolkit. LCDs are good at conveying information with very little energy consumption and using simple code but fall short in terms of aesthetic and color.
+Liquid Crystal Displays (LCDs) are an important part in any electronic engineer's toolkit. LCDs are good at conveying information with very little energy consumption and using simple code but fall short in terms of aesthetic and color. 
 
 ## Components
 For this build you are going to need 4 components.
 
-- LCD display
+- LCD display (Make sure it does not have an I2C chip on it)
 - Arduino
 - Wires
 - Resistors (Dependent on LCD display)
